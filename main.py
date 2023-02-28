@@ -1,1 +1,1 @@
-python detect.py --source C:\Projects\ShipDetector\images\test\ --weights runs/train/ship_det/weights/best.pt --conf 0.5 --name yolo_road_det
+python detect.py --source C:\Projects\ShipDetector\images\test\ --weights runs/train/ship_det/weights/best.pt --conf 0.5 --name ship_det
