@@ -8,7 +8,7 @@
 
 
 
-1.Создать проект, активировать виртуальное окружение и переместиться в корневую папку проекта
+1.Создать проект PyCharm в папке проекта, активировать виртуальное окружение и переместиться в корневую папку проекта
 
 2.Установить фреймворк yolo5 командой git clone https://github.com/ultralytics/yolov5
 
@@ -20,4 +20,5 @@
 
 5.Установить библиотеки и зависимости проекта командой pip install requirements.txt
 
-6.Для тестирования снимков, находящихся в папке images/test, использовать команду python detect.py --source C:\Projects\ShipDetector\images\test\ --weights runs/train/ship_det/weights/best.pt --conf 0.5 --name ship_det  (расположение может отличаться в зависимости от места создания проекта)
+6.Для тестирования снимков, находящихся в папке images/test, использовать команду python detect.py --source C:\Projects\ShipDetector__WhenUsingDataset__\images\test\ --weights runs/train/ship_det/weights/best.pt --conf 0.5 --name ship_det 
+(расположение может отличаться в зависимости от места создания проекта). Детекция на снимках располагается в ShipDetector__WhenUsingDataset__\yolov5\runs\detect\yolo_ship_det
