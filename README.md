@@ -4,7 +4,8 @@
 В загруженом проекте присутствует файл с лучшими весами + снимки для тестов, без исходного датасета.
 
 ## Для проверки обученной модели следует выполнить следующие шаги:
-0.Клонировать данный проект командой git clone https://github.com/Max10001/ShipDetector__WhenUsingDataset__
+0.Клонировать    данный    проект   командой: 
+git clone https://github.com/Max10001/ShipDetector__WhenUsingDataset__
 
 
 
@@ -18,7 +19,7 @@
 
 4.Перейти в папку фреймворка командой cd C:\Projects\ShipDetector__WhenUsingDataset__\yolov5 (расположение может отличаться в зависимости от места создания проекта)
 
-5.Установить библиотеки и зависимости проекта командой pip install requirements.txt
+5.Установить библиотеки и зависимости проекта командой pip install -r requirements.txt
 
 6.Для тестирования снимков, находящихся в папке images/test, использовать команду python detect.py --source C:\Projects\ShipDetector__WhenUsingDataset__\images\test\ --weights runs/train/ship_det/weights/best.pt --conf 0.5 --name ship_det 
 (расположение может отличаться в зависимости от места создания проекта). Детекция на снимках располагается в ShipDetector__WhenUsingDataset__\yolov5\runs\detect\yolo_ship_det
