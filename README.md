@@ -15,8 +15,8 @@
 3.Перенести папку "runs" из корневой папки проекта в папку yolo5
 
 
-4.Перейти в папку фреймворка командой cd C:\Projects\ShipDetector(WhenUsingDataset)\yolov5
+4.Перейти в папку фреймворка командой cd C:\Projects\ShipDetector(WhenUsingDataset)\yolov5 (расположение может отличаться в зависимости от места создания проекта)
 
 5.Установить библиотеки и зависимости проекта командой pip install requirements.txt
 
-6.Для тестирования снимков, находящихся в папке images/test, использовать команду python detect.py --source C:\Projects\ShipDetector\images\test\ --weights runs/train/ship_det/weights/best.pt --conf 0.5 --name ship_det
+6.Для тестирования снимков, находящихся в папке images/test, использовать команду python detect.py --source C:\Projects\ShipDetector\images\test\ --weights runs/train/ship_det/weights/best.pt --conf 0.5 --name ship_det  (расположение может отличаться в зависимости от места создания проекта)
